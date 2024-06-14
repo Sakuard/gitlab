@@ -3,8 +3,11 @@
 [Demo Repo](https://gitlab.com/matt.lab/git-agent)
 
 ### GitOps: Build and Deploy on K8S via Gitlab-CI with Gitlab-Agnet
+
 ![GitOps-Flow](https://hackmd.io/_uploads/r1tMP9LrC.png)
+
 > Flow
+
 1. Commit a new udpate to a repository.
 2. Trigger Gitlab-ci.
 3. In ```.gitlab-ci.yml```, stage: build
@@ -32,7 +35,6 @@ Trigger Gitlab-Agent.
 3. Build a .gitlab-ci.yml
 
 ### Step by Step
-
 1. Create 2 repo
 One for Gitlab-Agnet([ref](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html)), another for Project
 ```bash=
